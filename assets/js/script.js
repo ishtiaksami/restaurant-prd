@@ -8,7 +8,7 @@ $(window).on("scroll", function () {
   }
 });
 
-// toggleMenu
+// toggleMenu function
 
 function toggleMenu() {
   const menu = document.querySelector(".mobile-menu");
@@ -17,20 +17,37 @@ function toggleMenu() {
 
   // Toggle menu visibility
   if (menu.classList.contains("hidden")) {
+    // Open the menu
     menu.classList.remove("hidden");
     menu.style.maxHeight = `${menu.scrollHeight}px`; // Slide down animation
+
+    // Transform the burger icon to X
+    lines[0].classList.add("rotate-45");
+    lines[0].classList.add("translate-y-1.5");
+    lines[1].classList.add("opacity-0");
+    lines[2].classList.add("-rotate-45");
+    lines[2].classList.add("-translate-y-1.5");
+
+    // Change the margin when the menu is open
+    lines.forEach((line) => (line.style.margin = "-2px 0"));
   } else {
+    // Close the menu
     menu.style.maxHeight = "0px"; // Slide up animation
     setTimeout(() => menu.classList.add("hidden"), 500); // Wait for animation
-  }
 
-  // Toggle burger icon to X
-  lines[0].classList.toggle("rotate-45");
-  lines[0].classList.toggle("translate-y-1.5");
-  lines[1].classList.toggle("opacity-0");
-  lines[2].classList.toggle("-rotate-45");
-  lines[2].classList.toggle("-translate-y-1.5");
+    // Reset the burger icon back to original
+    lines[0].classList.remove("rotate-45");
+    lines[0].classList.remove("translate-y-1.5");
+    lines[1].classList.remove("opacity-0");
+    lines[2].classList.remove("-rotate-45");
+    lines[2].classList.remove("-translate-y-1.5");
+
+    // Reset the margin when the menu is closed
+    lines.forEach((line) => (line.style.margin = "5px 0"));
+  }
 }
+
+
 
 // swiper Slider
 new Swiper(".mySwiper", {
@@ -39,7 +56,7 @@ new Swiper(".mySwiper", {
   speed: 700, // Adjust speed (in ms) for smoother navigation, e.g., 700ms
   loop: true,
   // autoplay: {
-  //   delay: 2000, 
+  //   delay: 2000,
   // },
   navigation: {
     nextEl: ".promo-next",
@@ -63,7 +80,7 @@ new Swiper(".mySwiper2", {
     nextEl: ".swiper-next",
     prevEl: ".swiper-prev",
   },
-});  
+});
 
 // Get all tab elements and content blocks
 $(document).ready(function () {
