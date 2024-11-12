@@ -36,10 +36,6 @@
    cd restaurant-prd
    ```
 
-   ```
-
-   ```
-
 2. Install dependencies:
 
 ```
@@ -50,10 +46,6 @@
 
 ```
    npm run watch
-```
-
-```
-
 ```
 
 ## 📂 Project Structure
@@ -92,4 +84,4 @@ Contributions are welcome! Please open a pull request for any enhancements or bu
 ## 📞 Contact
 
     Author: Ishtiak Sami
-  # Email: ishtiaksami.dev@gmail.com
+    Email: ishtiaksami.dev@gmail.com
