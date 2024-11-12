@@ -62,6 +62,8 @@
 
 ```
 
+```
+
 ## 🛠️ Configuration
 
     Tailwind CSS Configuration: tailwind.config.js
@@ -79,4 +81,3 @@ Contributions are welcome! Please open a pull request for any enhancements or bu
 
     Author: Ishtiak Sami
     Email: ishtiaksami.dev@gmail.com
-```
