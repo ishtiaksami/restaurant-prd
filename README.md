@@ -28,17 +28,29 @@
 
 1. Clone the repository:
 
-   ```bash
+   ```
    git clone https://github.com/ishtiaksami/restaurant-prd.git
+   ```
+
+   ```
    cd restaurant-prd
+   ```
+
+   ```
 
    ```
 
 2. Install dependencies:
+
+```
    npm install
+```
 
 3. Start the development server:
+
+```
    npm run watch
+```
 
 ```
 
@@ -58,9 +70,9 @@
 ├── package.json # npm scripts and dependencies
 └── README.md # Project documentation
 
-```
 
-```
+
+
 
 ```
 
@@ -80,4 +92,4 @@ Contributions are welcome! Please open a pull request for any enhancements or bu
 ## 📞 Contact
 
     Author: Ishtiak Sami
-    Email: ishtiaksami.dev@gmail.com
+  # Email: ishtiaksami.dev@gmail.com
