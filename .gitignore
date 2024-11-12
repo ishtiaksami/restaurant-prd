@@ -1,0 +1,67 @@
+# Node modules (for projects using npm or yarn)
+node_modules/
+.pnp/
+.pnp.js
+
+# Tailwind CSS build output (if applicable)
+dist/
+build/
+public/css/*.css
+*.css.map
+
+# Tailwind JIT mode cache
+.tailwindcss-cache/
+
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+pnpm-lock.yaml
+
+# Operating System files
+.DS_Store
+Thumbs.db
+
+# Env files
+.env
+.env.local
+.env.*.local
+
+# IDE and editor-specific files
+.vscode/
+.idea/
+*.sublime-workspace
+
+# npm package lock files
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
+
+# Parcel cache (if using Parcel)
+.cache/
+
+# Temporary files
+*.tmp
+*.swp
+*.swo
+
+# Git
+.git/
+*.orig
+*.rej
+
+# Build tools cache
+.cache/
+.output/
+
+# SASS/SCSS Cache
+.sass-cache/
+
+# TypeScript cache
+*.tsbuildinfo
+
+# Miscellaneous
+*.bak

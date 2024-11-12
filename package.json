@@ -1,0 +1,19 @@
+{
+  "name": "restaurant",
+  "version": "1.0.0",
+  "description": "A project with Tailwind CSS",
+  "main": "index.js",
+  "scripts": {
+    "watch": "npx tailwindcss -i ./src/input.css -o ./output/output.css --watch"
+  },
+  "keywords": [],
+  "author": "ishtiak-sami",
+  "license": "ISC",
+  "devDependencies": {
+    "tailwindcss": "^3.0.0"
+  },
+  "dependencies": {
+    "jquery": "^3.7.1",
+    "swiper": "^11.1.14"
+  }
+}
