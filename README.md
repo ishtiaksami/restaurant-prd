@@ -1,4 +1,4 @@
-# 🌐 Project Name: [Restaurant Live](https://ishtiaksami.github.io/restaurant-prd)
+# 🌐 Project Name: [Restaurant](https://ishtiaksami.github.io/restaurant-prd)
 
 ## 🚀 Overview
 
