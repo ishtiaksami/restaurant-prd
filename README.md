@@ -42,9 +42,10 @@
 
 ```
 
+```
+
 ## 📂 Project Structure
 
-**restaurant-prd**
 ├── src
 │ └── input.css # Main CSS file with Tailwind directives
 ├── output
@@ -55,4 +56,25 @@
 ├── postcss.config.js # PostCSS configuration
 ├── package.json # npm scripts and dependencies
 └── README.md # Project documentation
+
 ```
+
+```
+
+## 🛠️ Configuration
+
+    Tailwind CSS Configuration: tailwind.config.js
+    PostCSS Configuration: postcss.config.js
+
+## 🐛 Issues
+
+If you encounter any problems, feel free to open an issue on the GitHub repository.
+
+## 🙌 Contributing
+
+Contributions are welcome! Please open a pull request for any enhancements or bug fixes.
+
+## 📞 Contact
+
+    Author: Ishtiak Sami
+    Email: ishtiaksami.dev@gmail.com
