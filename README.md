@@ -46,6 +46,7 @@
 
 ## 📂 Project Structure
 
+```
 ├── src
 │ └── input.css # Main CSS file with Tailwind directives
 ├── output
@@ -78,3 +79,4 @@ Contributions are welcome! Please open a pull request for any enhancements or bu
 
     Author: Ishtiak Sami
     Email: ishtiaksami.dev@gmail.com
+```
