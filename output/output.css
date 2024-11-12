@@ -637,6 +637,10 @@ p{
   z-index: 50;
 }
 
+.-z-50{
+  z-index: -50;
+}
+
 .order-2{
   order: 2;
 }
@@ -700,6 +704,14 @@ p{
 
 .aspect-\[137\/100\]{
   aspect-ratio: 137/100;
+}
+
+.aspect-\[14\/13\]{
+  aspect-ratio: 14/13;
+}
+
+.aspect-\[700\/650\]{
+  aspect-ratio: 700/650;
 }
 
 .h-0\.5{
@@ -1633,20 +1645,12 @@ header.scrolled {
     height: 8rem;
   }
 
-  .lg\:h-\[649px\]{
-    height: 649px;
-  }
-
   .lg\:w-32{
     width: 8rem;
   }
 
   .lg\:w-\[607px\]{
     width: 607px;
-  }
-
-  .lg\:w-\[700px\]{
-    width: 700px;
   }
 
   .lg\:w-\[850px\]{
